@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f1f1f1;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .WorldClock {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-left: 20px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar li a:hover {
+    color: #f60;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #f60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e55;
+  }
+  
+  .content a {
+    color: #f60;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .content a:hover {
+    color: #e55;
+  }
+  
+  h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
